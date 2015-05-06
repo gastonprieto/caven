@@ -18,7 +18,9 @@
   "homepage": "https://github.com/gastonprieto/caven",
   "dependencies": {
     "bluebird": "2.9.25",
-    "lodash": "3.8.0"
+    "lodash": "3.8.0",
+    "jsclass": "4.0.5",
+    "simpler-config": "0.0.4"
   },
   "devDependencies": {
     "gulp": "3.8.11",
