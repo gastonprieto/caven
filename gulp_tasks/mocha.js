@@ -14,7 +14,7 @@ function onFinish () {
 
 module.exports = function () {
   process.env.NODE_ENV = 'test';
-  return del('coverage', function () {
+  return del('coverage', () => {
     gulp.src('lib/**/*.js')
       .pipe(istanbul())
       .on('finish', onFinish);

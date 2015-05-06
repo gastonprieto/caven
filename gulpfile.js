@@ -1,5 +1,7 @@
 'use strict';
 
+require('babel/register');
+
 var gulp = require('gulp');
 var sequence = require('run-sequence');
 

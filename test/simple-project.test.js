@@ -13,7 +13,7 @@ describe('Simple Project', function() {
 
       ProjectReader
         .read(path)
-        .then(function (project) {
+        .then(project => {
           project.type.should.be.eql('binary');
           project.name.should.be.eql('simple-project');
         })

@@ -20,7 +20,8 @@
     "bluebird": "2.9.25",
     "lodash": "3.8.0",
     "jsclass": "4.0.5",
-    "simpler-config": "0.0.4"
+    "simpler-config": "0.0.4",
+    "babel": "5.2.15"
   },
   "devDependencies": {
     "gulp": "3.8.11",
@@ -32,6 +33,7 @@
     "gulp-mocha": "2.0.1",
     "gulp-jshint": "1.10.0",
     "gulp-istanbul": "0.8.1",
-    "require-dir": "0.3.0"
+    "require-dir": "0.3.0",
+    "gulp-babel": "5.1.0"
   }
 }
