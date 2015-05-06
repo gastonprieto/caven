@@ -1,0 +1,35 @@
+{
+  "name": "caven",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/gulp/bin/gulp.js test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/gastonprieto/caven.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gastonprieto/caven/issues"
+  },
+  "homepage": "https://github.com/gastonprieto/caven",
+  "dependencies": {
+    "bluebird": "2.9.25",
+    "lodash": "3.8.0"
+  },
+  "devDependencies": {
+    "gulp": "3.8.11",
+    "run-sequence": "1.1.0",
+    "should": "6.0.1",
+    "mocha": "2.2.4",
+    "jshint-stylish": "1.0.2",
+    "del": "1.1.1",
+    "gulp-mocha": "2.0.1",
+    "gulp-jshint": "1.10.0",
+    "gulp-istanbul": "0.8.1",
+    "require-dir": "0.3.0"
+  }
+}
