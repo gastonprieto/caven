@@ -21,7 +21,7 @@
     "lodash": "3.8.0",
     "jsclass": "4.0.5",
     "simpler-config": "0.0.4",
-    "babel": "5.2.15"
+    "babel": "6.0.0"
   },
   "devDependencies": {
     "gulp": "3.8.11",
